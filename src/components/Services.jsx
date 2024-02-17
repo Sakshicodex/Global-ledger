@@ -8,6 +8,11 @@ import quickbooks from '../assets/quickbooks.svg';
 import bill from '../assets/bill.svg';
 import xero from '../assets/xero.png'
 import razorpay from '../assets/razorpay.png'
+import s1 from '../assets/s1.png';
+import s2 from '../assets/s2.png';
+import s3 from '../assets/s3.png';
+
+
 
 const Services = () => {
   const services = [
@@ -16,21 +21,21 @@ const Services = () => {
       title: "Secure",
       decription:
         "We strictly only deal with vendors that provide top notch security.",
-      image: "/src/assets/s1.png",
+      image: {s1},
     },
     {
       id: 2,
       title: "Cloud Based Accounting",
       decription:
         "Utilize leading accounting software tailored to your needs for seamless financial management.",
-      image: "/src/assets/s2.png",
+      image: {s2},
     },
     {
       id: 3,
       title: "Data Analysis",
       decription:
         "Empower your decision-making with comprehensive data analysis and actionable insights.",
-      image: "/src/assets/s3.png",
+      image: {s3},
     },
     
     
