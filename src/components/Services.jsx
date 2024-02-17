@@ -21,21 +21,21 @@ const Services = () => {
       title: "Secure",
       decription:
         "We strictly only deal with vendors that provide top notch security.",
-      image: {s1},
+      image: s1,
     },
     {
       id: 2,
       title: "Cloud Based Accounting",
       decription:
         "Utilize leading accounting software tailored to your needs for seamless financial management.",
-      image: {s2},
+      image: s2,
     },
     {
       id: 3,
       title: "Data Analysis",
       decription:
         "Empower your decision-making with comprehensive data analysis and actionable insights.",
-      image: {s3},
+      image: s3,
     },
     
     
