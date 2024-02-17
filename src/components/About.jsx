@@ -1,6 +1,8 @@
 import React from "react";
 import aboutImg from "../assets/33.png";
 import mobi from "../assets/33.png";
+import affordable from '../assets/Affordable.png'
+import p2 from '../assets/p2.png'
 
 // motion
 import { motion } from "framer-motion";
@@ -69,7 +71,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/Affordable.png" alt="" />
+                <img src={affordable} alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">Affordable</h4>
                   <p>We promise to offer you the best rate we can - at par with the industry standard.</p>
@@ -79,7 +81,7 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img src="/src/assets/p2.png" alt="" />
+                <img src={p2} alt="" />
                 <div>
                   <h4 className="text-2xl text-neutralDGrey font-semibold">Professionalism</h4>
                   <p>We assure you that our accountants are just made for your service.</p>

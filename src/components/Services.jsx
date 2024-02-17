@@ -3,6 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+import gusto from '../assets/gusto.svg';
+import quickbooks from '../assets/quickbooks.svg';
+import bill from '../assets/bill.svg';
+import xero from '../assets/xero.png'
+import razorpay from '../assets/razorpay.png'
 
 const Services = () => {
   const services = [
@@ -42,11 +47,11 @@ const Services = () => {
         
         
         <div className="my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src="src/assets/gusto.svg" alt="" />
-          <img src="src/assets/quickbooks.svg" alt="" />
-          <img src="src/assets/bill.svg" alt="" />
-          <img src="src/assets/xero.png" alt="" />
-          <img src="src/assets/razorpay.png" alt="" />
+          <img src={gusto} alt="" />
+          <img src={quickbooks} alt="" />
+          <img src={bill} alt="" />
+          <img src={xero} alt="" />
+          <img src={razorpay} alt="" />
         
         </div>
       </motion.div>
