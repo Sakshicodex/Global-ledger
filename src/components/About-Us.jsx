@@ -106,7 +106,6 @@ const AboutUs = () => {
       </div>
       </div>
 
-      <MyFooter />
     </div>
   );
 };

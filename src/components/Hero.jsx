@@ -16,10 +16,6 @@ const Hero = () => {
     <About></About>
     <Product></Product>
     <Newsletter></Newsletter>
-    <MyFooter></MyFooter>
-
-
-
     </>
 
   )

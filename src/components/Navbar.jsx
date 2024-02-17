@@ -39,9 +39,12 @@ const Navbar = () => {
   ];
   
   if (currentPath === "/pricing") {
-    navItems = navItems.filter(item => ["Home", "Pricing", "Contact"].includes(item.link));
+    navItems = navItems.filter(item => ["Home", "Pricing","About Us", "Contact"].includes(item.link));
   }
   if (currentPath === "/about-us") {
+    navItems = navItems.filter(item => ["Home", "Pricing","About Us", "Contact"].includes(item.link));
+  }
+  if (currentPath === "/contact-us") {
     navItems = navItems.filter(item => ["Home", "Pricing","About Us", "Contact"].includes(item.link));
   }
   

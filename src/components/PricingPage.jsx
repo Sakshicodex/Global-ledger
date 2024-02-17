@@ -85,7 +85,6 @@ const PricingPage = () => {
           ))}
         </div>
       </div>
-      <MyFooter />
     </div>
   );
 };
