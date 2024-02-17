@@ -25,7 +25,7 @@ const ContactUsPage = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:3000/append-form-data', {
+      const response = await fetch('https://monkfish-app-7sw8e.ondigitalocean.app/append-form-data', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
