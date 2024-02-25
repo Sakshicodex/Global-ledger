@@ -100,7 +100,7 @@ const AboutUs = () => {
             </div>
             <h4 className="text-lg font-semibold">Utsav Bansal</h4>
             <p className="text-gray-600">CO-FOUNDER</p>
-            <a href="#!" className="text-blue-600 hover:text-blue-800"><FaLinkedinIn /></a>
+            <a href="https://www.linkedin.com/in/ca-utsavbansal" className="text-blue-600 hover:text-blue-800"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>

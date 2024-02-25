@@ -142,6 +142,10 @@ const ContactUsPage = () => {
               </div>
             </form>
           </div>
+          <div className="my-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.363742642435!2d77.37867709999999!3d28.618858499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff583f76a5b%3A0x45ed7bfa4d5a3572!2s91springboard!5e0!3m2!1sen!2sin!4v1708870951793!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    
         </div>
       </div>
     </div>
