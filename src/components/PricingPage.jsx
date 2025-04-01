@@ -6,7 +6,7 @@ const PricingPage = () => {
   const tiers = [
     {
       name: 'Blue Ledger',
-      price: '$100/MO',
+      price: '$1000/MO',
       services: [true, true, true, true, 'Add-on Available', 'Add-on Available', 'Add-on Available', 'Add-on Available', ]      ,
       borderColor: 'border-blue-500',
       bgColor: 'bg-blue-500',
@@ -14,7 +14,7 @@ const PricingPage = () => {
     },
     {
       name: 'Green Ledger',
-      price: '$250/MO',
+      price: '$2500/MO',
       services: [true, true, true, true, true, true, true, 'Add-on Available']      ,
       borderColor: 'border-green-500',
       bgColor: 'bg-green-500',
@@ -22,7 +22,7 @@ const PricingPage = () => {
     },
     {
       name: 'Golden Ledger',
-      price: '$500/MO',
+      price: '$5000/MO',
       services: [true, true, true, true, true, true, true, true],     
       borderColor: 'border-yellow-500',
       bgColor: 'bg-yellow-500',
